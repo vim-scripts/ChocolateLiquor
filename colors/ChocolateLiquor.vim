@@ -1,6 +1,6 @@
 " Vim color file
 " Maintainer:   Gerald S. Williams
-" Last Change:  2003 Mar 11
+" Last Change:  2003 Apr 17
 
 " This started as a dark version (perhaps opposite is a better term) of
 " PapayaWhip, but took on a life of its own. Easy on the eyes, but still
@@ -17,7 +17,8 @@ endif
 let g:colors_name = "ChocolateLiquor"
 
 hi Normal guibg=#3f1f1f guifg=PapayaWhip ctermfg=White
-hi NonText guibg=#1f0f0f guifg=Brown ctermfg=Brown
+hi NonText guibg=#1f0f0f guifg=Brown2 ctermfg=Brown
+hi LineNr guibg=#1f0f0f guifg=Brown2
 hi DiffDelete guibg=DarkRed guifg=White ctermbg=DarkRed ctermfg=White
 hi DiffAdd guibg=DarkGreen guifg=White ctermbg=DarkGreen ctermfg=White
 hi DiffText gui=NONE guibg=DarkCyan guifg=Yellow ctermbg=DarkCyan ctermfg=Yellow

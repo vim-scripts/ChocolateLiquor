@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=592
+
+This started as an inverse/opposite of PapayaWhip (vimscript #591),
+but took on a life of its own. If you want a dark background that's very
+usable but without too much contrast, try this one.
+
+Screenshot: http://home.ptd.net/~gwilliam/vim/ChocolateLiquor.png

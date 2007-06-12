@@ -1,6 +1,6 @@
 " Vim color file
 " Maintainer:   Gerald S. Williams
-" Last Change:  2003 Apr 17
+" Last Change:  2007 Jun 12
 
 " This started as a dark version (perhaps opposite is a better term) of
 " PapayaWhip, but took on a life of its own. Easy on the eyes, but still
@@ -26,9 +26,11 @@ hi DiffChange guibg=DarkCyan guifg=White ctermbg=DarkCyan ctermfg=White
 hi Constant ctermfg=Red
 hi Comment guifg=LightBlue3
 hi PreProc guifg=Plum ctermfg=Magenta
-hi StatusLine guibg=White guifg=Sienna4 cterm=NONE ctermfg=Gray ctermbg=Brown
+hi StatusLine guibg=White guifg=Sienna4 cterm=NONE ctermfg=Black ctermbg=Brown
 hi StatusLineNC gui=NONE guifg=Black guibg=Gray ctermbg=Black ctermfg=Gray
 hi VertSplit guifg=Gray
 hi Search guibg=Gold3 ctermfg=White
 hi Type gui=NONE guifg=DarkSeaGreen2
 hi Statement gui=NONE guifg=Gold3
+hi FoldColumn guibg=grey10 ctermfg=Cyan ctermbg=Black
+hi Folded guibg=grey20 ctermfg=Cyan ctermbg=Black
